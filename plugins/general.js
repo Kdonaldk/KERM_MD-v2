@@ -204,7 +204,7 @@ smd(
     pattern: "chat",
     desc: "chat with an AI",
     category: "ai",
-    use: "<Hii, David>",
+    use: "<Hii, Giffareno>",
     filename: __filename,
   },
   async (_0x1c0160, _0x482db1) => {
@@ -224,7 +224,7 @@ smd(
     pattern: "gpt",
     desc: "chat with an AI",
     category: "ai",
-    use: "<Hii, David>",
+    use: "<Hii, Rayan>",
     filename: __filename,
   },
   async (_0x5cb388, _0x302ad5) => {
@@ -727,7 +727,7 @@ async function getDateTime() {
 smd(
   {
     pattern: "repo",
-    alias: ["git", "sc", "script"],
+    alias: ["git", "sc", "script", "kerm"],
     desc: "Sends info about repo",
     category: "user",
     filename: __filename,
@@ -735,18 +735,18 @@ smd(
   async (_0x45da98) => {
     try {
       let { data: _0x44f98c } = await axios.get(
-        "https://api.github.com/repos/DeeCeeXxx/QUEEN_ANITA-V2d"
+        "https://github.com/Kermhack/KERM_MD-v2"
       );
       let _0x1c73f9 = (
-        "\nQUEEN_ANITA-V2 A simple Mutil Device WhatsApp Bot Created and Managed by *" +
+        "\nKERM_MD-V2 A simple Mutil Device WhatsApp Bot Created and Managed by KG TECH *" +
         Config.ownername +
         "*. 👑\n\n  *❲❒❳ Stars:* " +
         (_0x44f98c?.stargazers_count || "None (🥲)") +
         " stars\n  *❲❒❳ Forks:* " +
         (_0x44f98c?.forks_count || "1000+") +
-        " forks\n  *❲❒❳ Creator:* David Cyril\n  *❲❒❳ Created:* " +
+        " forks\n  *❲❒❳ Creator:* KG TECH\n  *❲❒❳ Created:* " +
         (_0x44f98c?.created_at || "2024/06") +
-        "\n  *❲❒❳ Repo:* _https://github.com/DeeCeeXxx/Queen_Anita-V2_\n  *❲❒❳ Scan:* _" +
+        "\n  *❲❒❳ Repo:* _https://github.com/Kermhack/KERM_MD-v2_\n  *❲❒❳ Scan:* _" +
         scan +
         "_\n" +
         (Config.caption ? "\n\n" + Config.caption : "")
@@ -775,7 +775,7 @@ smd(
       let _0x53eb40 = (
         " *I am " +
         Config.botname +
-        "*\n  *❲❒❳ About:* A Simple WhatsApp Bot Created By *" +
+        "*\n  *❲❒❳ About:* A Simple WhatsApp Bot Created By KG TECH *" +
         Config.ownername +
         "*.\n\n  *❲❒❳ Speed:* " +
         latensie.toFixed(4) +
@@ -932,7 +932,7 @@ smd(
     alias: ["advertisement"],
     category: "ai",
     desc: "Advertise of your Message, by sending it to provided nmbr range.",
-    use: "234906652xx,Your_text_here",
+    use: "2376565206xx,Your_text_here",
     fromMe: true,
     filename: __filename,
   },
@@ -1129,8 +1129,8 @@ smd(
           return;
         }
         if (
-          _0x2acf30.reply_text.includes("ᴀꜱᴛᴀ-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
-          _0x2dfb59[0].includes("ᴀꜱᴛᴀ-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
+          _0x2acf30.reply_text.includes(" • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
+          _0x2dfb59[0].includes(" • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
           _0x2dfb59[2].includes("Msg_Id")
         ) {
           let _0x1b0d01 = "" + _0x2dfb59[2].replace("*Msg_Id:* ", "").trim();
@@ -1219,7 +1219,7 @@ smd(
     pattern: "aitts",
     desc: "Text to Voice Using Eleven Lab Ai",
     category: "ai",
-    use: "<Hii, David>",
+    use: "<Hii, Rayan>",
     filename: __filename,
   },
   async (_0x1a01af, _0x1ac85a) => {
