@@ -38,13 +38,13 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 
 global.api_smd = "https://api-smd-1.vercel.app";
-global.scan = "https://web-qrv2-1.onrender.com";
+global.scan = "https://secret-garden-43998-4daad95d4561.herokuapp.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
   ""
 module.exports = {
-  menu: process.env.MENU || "2",
+  menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
