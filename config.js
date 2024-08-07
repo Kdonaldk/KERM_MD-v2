@@ -38,7 +38,7 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 
 global.api_smd = "https://api-smd-1.vercel.app";
-global.scan = "https://secret-garden-43998-4daad95d4561.herokuapp.com/";
+global.scan = "https://kerm-v2-session.onrender.com/pair";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
@@ -50,7 +50,7 @@ module.exports = {
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "BRAND PRODUCT OF KG TECH",
   author: process.env.PACK_AUTHER || "KG TECH",
-  packname: process.env.PACK_NAME || "A N I T A",
+  packname: process.env.PACK_NAME || "Kerm-MD-V2",
   botname: process.env.BOT_NAME || "𝐊𝐄𝐑𝐌 𝐌𝐃 𝐕𝟐",
   ownername: process.env.OWNER_NAME || "KG TECH",
   errorChat: process.env.ERROR_CHAT || "",
