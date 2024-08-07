@@ -23,6 +23,7 @@ smd(
     type: "MENU list",
     info: "user",
     dontAddCommandList: true,
+    react: "📜",
   },
   async (message) => {
     try {
@@ -220,7 +221,7 @@ astro_patch.cmd(
   async (message) => {
     try {
       message.reply(
-        `*_Uptime of ${tlang().title}: ${runtime(process.uptime())}_*`
+        `*_Uptime of 𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐().title}: ${runtime(process.uptime())}_*`
       );
     } catch (error) {
       await message.error(error + "\n\ncommand : uptime", error, false);
