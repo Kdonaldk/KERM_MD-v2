@@ -64,7 +64,7 @@ try {
     category: "chats",
     desc: "set auto reply for mention",
     use: "[ url type/audio ]",
-    usage: "read  'mention wiki' to get all inforamtion of mention!",
+    usage: "read  'mention wiki' to get all inforamtion of mention bro!",
     filename: __filename
   }, async (_0x184ecd, _0x431080) => {
     mention.cmd(_0x184ecd, _0x431080);
@@ -80,7 +80,7 @@ try {
     category: "chats",
     desc: "set auto reply filter messages",
     use: "[ asta : how can i help you! ]",
-    usage: "set filter message to specific text, so that bot replied user from chat by giving text!",
+    usage: "set filter message to specific text, so that bot replied user from chat by giving text idiot!",
     fromMe: true,
     filename: __filename
   }, async (_0x126a17, _0x3ebefa) => {
@@ -244,7 +244,7 @@ smd(
       const designs = [
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/95ae0655bd548ecd61da5.jpg",
+            "https://telegra.ph/file/07e42547b2a5f9be43e2c.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -261,13 +261,13 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `QUEEN_ANITA-V2 \n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds${quoteText}\n\nQUEEN_ANITA-V2`;
+          const captionText = `KERM_MD-V2 \n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds${quoteText}\n\nKERM_MD-V2`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/95ae0655bd548ecd61da5.jpg",
+            "https://telegra.ph/file/07e42547b2a5f9be43e2c.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -283,13 +283,13 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `QUEEN_ANITA-V2\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nRIAS GREMORY BOT`;
+          const captionText = `KERM_MD-V2\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\nKERM MD BOT`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/95ae0655bd548ecd61da5.jpg",
+            "https://telegra.ph/file/07e42547b2a5f9be43e2c.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -305,7 +305,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `QUEEN_ANITA-V2\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nQUEEN_ANITA-V2`;
+          const captionText = `KERM_MD-V2\n\n*ʀᴇsᴘᴏɴsᴇ ʀᴀᴛᴇ:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nKERM_MD-V2`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -793,7 +793,7 @@ smd({
       id: "bot_" + _0x50364b.user
     }));
     if (!_0x1f0ea7) {
-      return await _0x50364b.send("*_Auto_Bio currently *" + (bio.autobio == "false" ? "Disabled_*\n\nUse *" + prefix + "autobio on* to turn on auto_bio!" : "Enabled_*\n*Currently Set:* " + (bio.autobio == "true" || bio.autobio == "on" ? "@line, ⏰Time: @time 🚀@bot" : bio.autobio) + "\n\nUse *" + prefix + "autobio off* to turn off auto_bio!") + "\n  \n  Also update status: *" + prefix + "autobio @bot(botName) @time @date @line(pickupline) @quote*\n  ");
+      return await _0x50364b.send("*_Auto_Bio currently bro_*" + (bio.autobio == "false" ? "Disabled_*\n\nUse *" + prefix + "autobio on* to turn on auto_bio!" : "Enabled_*\n*Currently Set:* " + (bio.autobio == "true" || bio.autobio == "on" ? "@line, ⏰Time: @time 🚀@bot" : bio.autobio) + "\n\nUse *" + prefix + "autobio off* to turn off auto_bio!") + "\n  \n  Also update status: *" + prefix + "autobio @bot(botName) @time @date @line(pickupline) @quote*\n  ");
     }
     let _0x3d9e60 = _0x1f0ea7.toLowerCase().split(" ")[0].trim();
     if (_0x3d9e60 === "off" || _0x3d9e60 === "disable" || _0x3d9e60 === "deact") {
@@ -816,7 +816,7 @@ smd({
       }, {
         autobio: _0x1f0ea7
       });
-      var _0x347b23 = await getContent(_0x50364b, _0x1f0ea7 == "true" || _0x1f0ea7 == "on" ? "Auto Bio By QUEEN_ANITA-V2, ⏰Time: @time 🚀@bot" : _0x1f0ea7);
+      var _0x347b23 = await getContent(_0x50364b, _0x1f0ea7 == "true" || _0x1f0ea7 == "on" ? "Auto Bio By KERM_MD-V2, ⏰Time: @time 🚀@bot" : _0x1f0ea7);
       await _0x50364b.bot.updateProfileStatus(_0x347b23);
       return await _0x50364b.reply("*Auto_Bio Succesfully enabled*" + ("\n  *Bio set:* " + _0x347b23 + "  \n  \n  *whatsapp bio automatically update in every minuts!*\n  "));
     }
@@ -917,13 +917,13 @@ events.cmd({
   try {
     let _0x35816f = global.renters;
     if (!_0x35816f || !_0x35816f[0]) {
-      return await _0x48b928.reply("*No user has rent 'QUEEN_ANITA-V2' yet!*");
+      return await _0x48b928.reply("*No user has rent 'KERM_MD-V2' yet bro!*");
     }
     let _0x14cff4 = [...new Set([..._0x35816f.filter(_0x2822d6 => _0x2822d6.user).map(_0x2b342c => _0x2b342c.user)])];
     if (!_0x14cff4 || !_0x14cff4[0]) {
-      return await _0x48b928.reply("*There's no user has shared 'QUEEN_ANITA-V2'!*");
+      return await _0x48b928.reply("*There's no user has shared 'KERM_MD-V2'!*");
     }
-    let _0x1b2187 = "*[QUEEN_ANITA-V2 Rent Users]*\n\n";
+    let _0x1b2187 = "*[KERM_MD-V2 Rent Users]*\n\n";
     let _0x261278 = [];
     let _0xa5efb9 = 1;
     for (let _0x5adbc2 of _0x14cff4) {
@@ -937,7 +937,7 @@ events.cmd({
       mentions: [..._0x261278],
       contextInfo: {
         externalAdReply: {
-          title: "QUEEN_ANITA-V2 Share list",
+          title: "KERM_MD-V2 Share list",
           sourceUrl: gurl
         }
       }
@@ -958,7 +958,7 @@ events.cmd({
   try {
     let _0x21c25c = global.renters;
     if (!_0x21c25c || !_0x21c25c[0]) {
-      return await _0x5d40b9.reply("*No user has rent 'QUEEN_ANITA-V2' yet!*");
+      return await _0x5d40b9.reply("*No user has rent 'KERM_MD-V2' yet bro!*");
     }
     let _0x3c0e18 = _0x5d40b9.reply_message ? _0x5d40b9.reply_message.sender : _0x5d40b9.mentionedJid[0] ? _0x5d40b9.mentionedJid[0] : false;
     let _0x2e6489 = (_0xb3196a.split(" ")[0] || "")?.replace(/[\s+]/g, "") || "";
@@ -975,7 +975,7 @@ events.cmd({
         mentions: [_0x34f1e0]
       });
     } else {
-      return await _0x5d40b9.reply("*There's no user who has shared 'QUEEN_ANITA-V2'!*");
+      return await _0x5d40b9.reply("*There's no user who has shared 'KERM_MD-V2'!*");
     }
   } catch (_0x5bad57) {
     _0x5d40b9.reply("_ERROR!_");
@@ -991,16 +991,16 @@ events.cmd({
 }, async (_0x52616f, _0x2d6ee3) => {
   try {
     if (!_0x2d6ee3) {
-      return _0x52616f.reply("*provide cmdName to disable for share user!*");
+      return _0x52616f.reply("*provide cmdName to disable for share user man!*");
     }
     let _0x41fff7 = global.renters;
     if (!_0x41fff7 || !_0x41fff7[0]) {
-      return await _0x52616f.reply("*_No user has rent 'QUEEN_ANITA-V2' yet!_*\n*_Can't disable cmds for shared users, If the bot is not shared!_*");
+      return await _0x52616f.reply("*_No user has rent 'KERM_MD-V2' yet!_*\n*_Can't disable cmds for shared users, If the bot is not shared!_*");
     }
     let _0x5b8a34 = _0x2d6ee3.split(" ")[0].toLowerCase().trim();
     let _0x197a22 = events.commands.find(_0x3f658d => _0x3f658d.pattern === _0x5b8a34) || events.commands.find(_0x21a89e => _0x21a89e.alias && _0x21a89e.alias.includes(_0x5b8a34));
     if (!_0x197a22) {
-      return await _0x52616f.reply("*Provide a valid cmd name, that available in bot!*\n*To Stop using from users who have rent 'QUEEN_ANITA-V2'!");
+      return await _0x52616f.reply("*Provide a valid cmd name, that available in bot!*\n*To Stop using from users who have rent 'KERM_MD-V2'!");
     }
     if (global.rentdisable.includes(_0x197a22.pattern)) {
       return await _0x52616f.reply("*'" + _0x197a22.pattern + "' already disabled for shared users!*");
@@ -1026,7 +1026,7 @@ events.cmd({
     let _0x171cac = _0x3b447a.split(" ")[0].toLowerCase().trim();
     let _0x44129c = events.commands.find(_0x58fb4d => _0x58fb4d.pattern === _0x171cac) || events.commands.find(_0xca2299 => _0xca2299.alias && _0xca2299.alias.includes(_0x171cac));
     if (!_0x44129c) {
-      return await _0xb03e25.reply("*Provide a valid cmd name, that available in bot!*\n*To enable using from users who have rent 'QUEEN_ANITA-V2'!");
+      return await _0xb03e25.reply("*Provide a valid cmd name, that available in bot!*\n*To enable using from users who have rent 'KERM_MD-V2'!");
     }
     if (global.rentdisable.includes(_0x44129c.pattern)) {
       global.rentdisable = global.rentdisable.filter(_0x527859 => _0x527859 !== _0x44129c.pattern);
@@ -1723,7 +1723,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
                 let _0x5e5dd0 = fs.readFileSync(_0x3c1a40);
                 if (!_0x181a7a && _0x5e5dd0) {
                   _0x181a7a = Buffer.from(_0x5e5dd0).toString("base64");
-                  let _0x5b0adb = "┌───⭓\n❒ *[QUEEN_ANITA-V2-SAHRING-ON]*\n❒ _Your Session Id, Dont provide!_\n└────────────⭓\n";
+                  let _0x5b0adb = "┌───⭓\n❒ *[KERM_MD-V2-SAHRING-ON]*\n❒ _Your Session Id, Dont provide!_\n└────────────⭓\n";
                   await _0x1a9455.sendMessage(_0x459047, {
                     text: "Asta;;;" + _0x181a7a
                   });
@@ -1747,7 +1747,7 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
             }
             print("RENT BOT :  ✅ Whatsapp Login Successful!");
             global.renters.push(_0x1a9455);
-            let _0x1221e4 = "┌───⭓\n❒  [QUEEN_ANITA-V2 SHARING RUNNING] \n❒  Prefix : [ " + (prefix || "null") + " ]\n❒  Mode : " + Config.WORKTYPE + "\n❒  Plugins : " + events.commands.length + "";
+            let _0x1221e4 = "┌───⭓\n❒  [KERM_MD-V2 SHARING RUNNING] \n❒  Prefix : [ " + (prefix || "null") + " ]\n❒  Mode : " + Config.WORKTYPE + "\n❒  Plugins : " + events.commands.length + "";
             await _0x8bf7a7.reply("*SHARE MODE*\n*Now @" + _0x517212 + " Have own whatsapp bot!*:", {
               mentions: [_0x459047]
             }, "smd");
@@ -1759,15 +1759,15 @@ const Rentt = async (_0x1b984f, _0x8bf7a7, _0x181a7a = "", _0x235024 = {}) => {
               text: ("" + _0x1221e4).trim(),
               contextInfo: {
                 externalAdReply: {
-                  title: "QUEEN_ANITA-V2 Sharing",
-                  sourceUrl: "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L"
+                  title: "KERM_MD-V2 Sharing",
+                  sourceUrl: "https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45"
                 }
               }
             }, {
               disappearingMessagesInChat: true,
               ephemeralExpiration: 86400
             });
-          }
+          } 
           if (_0x3d78c6 === "close") {
             try {
               let _0xb073c3 = new Boom(_0x289aef?.error)?.output.statusCode;
