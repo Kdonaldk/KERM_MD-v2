@@ -246,13 +246,6 @@ astro_patch.smd(
         }
       }
 
-      let menuThemeType;
-      let menuThemeHeader;
-      let menuThemeFooter;
-      let menuThemeCategoryHeader;
-      let menuThemeCategoryFooter;
-      let menuThemeCommandPrefix;
-      let menuThemeCommandFooter;
 
       if (Config.menu === "") {
         menuThemeType = Math.floor(Math.random() * 4) + 1;
