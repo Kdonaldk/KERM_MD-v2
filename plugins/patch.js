@@ -188,7 +188,7 @@ smd(
           }
         }
 
-        return await message.send("`QUEEN_ANITA-V2- UPDATE WAS SUCCESSFULL ✅`");
+        return await message.send("`KERM_MD-V2- UPDATE WAS SUCCESSFULL ✅`");
       } else {
         return await message.send(
           "*Auto Updated Failed, Unable to Download Update Please Manually Do It*"
@@ -203,10 +203,10 @@ astro_patch.smd(
   {
     cmdname: "menu",
     desc: "Help list",
-    react: "🥷🏽",
     desc: "To show all avaiable commands.",
     type: "user",
     filename: __filename,
+    react: "🥷🏽",
   },
   async (message, input) => {
     try {
@@ -309,8 +309,7 @@ ${menuThemeCommandPrefix} *ᴛɪᴍᴇ:* ${currentTime}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴇ:* ${currentDate}
 ${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
 ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
-${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
-${menuThemeFooter}                         
+${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}                         
 *ᵏᵍ┘𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐└
 │└────────────┈         
   *☞⌜ KG TECH⌝☜
@@ -372,7 +371,7 @@ smd(
         _0x22514a.date +
         "\n*➮ɴᴏᴡ ᴛɪᴍᴇ :* " +
         _0x22514a.time +
-        "\n\n➮Fᴏᴜɴᴅᴇʀ- DAVID CYRIL \n➮Oᴡɴᴇʀ - " +
+        "\n\n➮Fᴏᴜɴᴅᴇʀ- KG TECH \n➮Oᴡɴᴇʀ - " +
         Config.ownername +
         "\n➮Nᴜᴍ - " +
         owner.split(",")[0] +
@@ -399,6 +398,7 @@ astro_patch.cmd(
     category: "user",
     fromMe: true,
     filename: __filename,
+    react: "⬇️",
   },
   async (_0x5d887, _0x291296, { Void: _0x43ee74 }) => {
     try {
@@ -429,7 +429,7 @@ astro_patch.cmd(
       }
       if (_0x3be11d.length < 1) {
         return await _0x5d887.reply(
-          "*_Uhh Please, Provide New_Cmd Name First_*"
+          "*_Uhh Please, Provide New_Cmd Name First bro_*"
         );
       }
       if (global.setCmdAlias[_0x3be11d]) {
@@ -478,6 +478,7 @@ astro_patch.cmd(
     category: "user",
     fromMe: true,
     filename: __filename,
+    react: "❌",
   },
   async (_0xcfb3ed, _0x5c72db, { Void: _0x5c00fc }) => {
     try {
@@ -536,7 +537,7 @@ astro_patch.smd(
     const endTime = new Date().getTime();
     const pingTime = endTime - startTime;
     await context.send(
-      `*QUEEN_ANITA-V2 ping is: ${pingTime} ᴍs*`,
+      `*KERM_MD-V2 ping is: ${pingTime} ᴍs*`,
       { edit: messageKey },
       "",
       context
@@ -557,7 +558,7 @@ smd(
       const designs = [
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/7114b23c0da05d89173b3.jpg",
+            "https://telegra.ph/file/07e42547b2a5f9be43e2c.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -574,13 +575,13 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\nQUEEN_ANITA-V2`;
+          const captionText = `𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\nKERM_MD-V2`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/7114b23c0da05d89173b3.jpg",
+            "https://telegra.ph/file/07e42547b2a5f9be43e2c.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -596,13 +597,13 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐\n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n+QUEEN_ANITA-V2`;
+          const captionText = `𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐\n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n+KERM_MD-V2`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://telegra.ph/file/7114b23c0da05d89173b3.jpg",
+            "https://telegra.ph/file/07e42547b2a5f9be43e2c.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -618,7 +619,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐\n\n*Ping:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nQUEEN_ANITA-V2`;
+          const captionText = `𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐\n\n*Ping:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nKERM_MD-V2`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -655,6 +656,7 @@ smd(
     desc: "Show the uptime, RAM usage, and CPU name of the process.",
     category: "general",
     filename: __filename,
+    react: "🕖",
   },
   async (m) => {
     try {
@@ -686,7 +688,7 @@ astro_patch.cmd({
     pattern: "list",
     desc: "list menu",
     category: "general",
-    react: "🥀"
+    react: "📝"
   }, async _0x1d5ddc => {
     try {
       const {
@@ -713,6 +715,7 @@ astro_patch.smd(
     desc: "To check ping",
     category: "user",
     filename: __filename,
+    react: "🪪",
   },
   async (_0x563719) => {
     try {
