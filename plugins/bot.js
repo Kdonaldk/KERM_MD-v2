@@ -237,6 +237,7 @@ smd(
     category: "general",
     filename: __filename,
     use: "alive",
+    react: "🙋🏽‍♂️",
   },
   async (message, input) => {
     try {
@@ -251,7 +252,7 @@ smd(
           );
 
           const quoteResponse = await axios.get(
-            "https://api.maher-zubair.tech/misc/quote"
+            "« Qui veut aller loin, ménage sa monture. »Ce proverbe nous enseigne que pour atteindre un objectif ambitieux, il est important d'être persévérant et de prendre soin de ses ressources. La détermination et la persévérance sont essentielles pour surmonter les obstacles et atteindre ses buts. _*𝓡𝓪𝔂𝓪𝓷 & 𝓖𝓲𝓯 𝓕𝓪𝓻𝓮𝓷𝓸*..._✒️CMR-237🇨🇲"
           );
           const quote = quoteResponse.data;
           if (!quote || quote.status !== 200) {
@@ -274,7 +275,7 @@ smd(
           );
 
           const factResponse = await axios.get(
-            "https://api.maher-zubair.tech/misc/fact"
+            "OUIIIII Man c'est quoi ? Je suis là tkt😑 idiot"
           );
           const fact = factResponse.data;
           if (!fact || fact.status !== 200) {
@@ -296,7 +297,7 @@ smd(
           );
 
           const lineResponse = await axios.get(
-            "https://api.maher-zubair.tech/misc/lines"
+            "J'étais sur le point de dormir, ouuii tu veuw quoi mm ? Massah😑"
           );
           const line = lineResponse.data;
           if (!line || line.status !== 200) {
