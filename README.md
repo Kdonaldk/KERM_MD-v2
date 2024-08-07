@@ -20,9 +20,9 @@
 <p/>
 <p align="center">
 <a href="https://github.com/RayanHack5?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/RayanHack5?label=Followers&style=social"></a>
-<a href="https://github.com/RayanHack5/KERM-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/IRayanHack5/KERM-MD?&style=social"></a>
-<a href="https://github.com/RayanHack5/KERM-MD/network/members"><img title="Fork" src="https://img.shields.io/github/forks/RayanHack5/KERM-MD?style=social"></a>
-<a href="https://github.com/RayanHack5/KERM-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/RayanHack5/KERM-MD?label=Watching&style=social"></a>
+<a href="https://github.com/Kermhack/KERM_MD-v2/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/IRayanHack5/KERM_MD-v2?&style=social"></a>
+<a href="https://github.com/Kermhack/KERM_MD-v2/network/members"><img title="Fork" src="https://img.shields.io/github/forks/RayanHack5/KERM_MD-v2?style=social"></a>
+<a href="https://github.com/Kermhack/KERM_MD-v2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/RayanHack5/KERM_MD-v2?label=Watching&style=social"></a>
 </p>
    
 ### 1. FORK THIS REPO
