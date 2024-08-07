@@ -203,7 +203,7 @@ astro_patch.smd(
   {
     cmdname: "menu",
     desc: "Help list",
-    react: "📃",
+    react: "🥷🏽",
     desc: "To show all avaiable commands.",
     type: "user",
     filename: __filename,
@@ -309,19 +309,19 @@ astro_patch.smd(
       const currentDate = message.date;
       let menuText = `
 ${menuThemeHeader}
-${menuThemeCommandPrefix} *ᴏᴡɴᴇʀ:* ${Config.ownername}
-${menuThemeCommandPrefix} *ᴜᴘᴛɪᴍᴇ:* ${runtime(process.uptime())}
-${menuThemeCommandPrefix} *ʀᴀᴍ ᴜsᴀɢᴇ:* ${formatp(os.totalmem() - os.freemem())}
+${menuThemeCommandPrefix} *⫷𝕆𝕨𝕟𝕖𝕣⫸:* ${Config.ownername}
+${menuThemeCommandPrefix} *✭𝕌𝕡𝕥𝕚𝕞𝕖✭:* ${runtime(process.uptime())}
+${menuThemeCommandPrefix} *✩𝙍𝙖𝙢 𝙐𝙨𝙖𝙜𝙚✩:* ${formatp(os.totalmem() - os.freemem())}
 ${menuThemeCommandPrefix} *ᴛɪᴍᴇ:* ${currentTime}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴇ:* ${currentDate}
 ${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
 ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
 ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
 ${menuThemeFooter}                         
-*┌┤✑  Thanks for Choosing QUEEN_ANITA-V2
-│└────────────┈ ⳹        
-│*©2024-2099 David Cyril*
-└─────────────────┈ ⳹*
+*ᵏᵍ┘𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐└
+│└────────────┈         
+  *☞⌜ KG TECH⌝☜
+└─────────────────┈ *
 ${readmore}`;
 
       for (const category in categorizedCommands) {
@@ -387,7 +387,7 @@ smd(
         formatp(os.totalmem() - os.freemem()) +
         "/" +
         formatp(os.totalmem()) +
-        "\n\n *🧑‍💻 :*  QUEEN_ANITA-V2 ɪꜱ ɴᴏᴡ Aᴠᴀɪʟᴀʙʟᴇ\n\n" +
+        "\n\n *🧑‍💻 :*  ᵏᵍ┘𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐└ ɪꜱ ɴᴏᴡ Aᴠᴀɪʟᴀʙʟᴇ\n\n" +
         readmore +
         "\n╭──❰ *ALL MENU* ❱\n│🏮 Lɪꜱᴛ\n│🏮 Cᴀᴛᴇɢᴏʀʏ\n│🏮 Hᴇʟᴘ\n│🏮 Aʟɪᴠᴇ\n│🏮 Uᴘᴛɪᴍᴇ\n│🏮 Wᴇᴀᴛʜᴇʀ\n│🏮 Lɪɴᴋ\n│🏮 Cᴘᴜ\n│🏮 Rᴇᴘᴏꜱɪᴛᴏʀʏ\n╰─────────────⦁"
       ).trim();
@@ -564,7 +564,7 @@ smd(
       const designs = [
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/EBUvKfB.jpeg",
+            "https://telegra.ph/file/7114b23c0da05d89173b3.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -581,13 +581,13 @@ smd(
           const quoteText = `\n\n*"${quote.result.body}"*\n_- ${quote.result.author}_`;
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `QUEEN_ANITA-V2 1.𝟶.𝟶 ᴘᴀᴛᴄʜ\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\nQUEEN_ANITA-V2`;
+          const captionText = `𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐\n\n*Ping:* ${pingSeconds} seconds${quoteText}\n\nQUEEN_ANITA-V2`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/H4qeXwa.jpeg",
+            "https://telegra.ph/file/7114b23c0da05d89173b3.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -603,13 +603,13 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `QUEEN_ANITA-V2 1.𝟶.𝟶 ᴘᴀᴛᴄʜ\n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n+QUEEN_ANITA-V2`;
+          const captionText = `𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐\n\n*Ping:* ${pingSeconds} seconds\n\n*Fact:*\n${fact.result.fact}\n\n+QUEEN_ANITA-V2`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/OQOH4Gn.jpeg",
+            "https://telegra.ph/file/7114b23c0da05d89173b3.jpg",
             {
               responseType: "arraybuffer",
             }
@@ -625,7 +625,7 @@ smd(
 
           const end = new Date().getTime();
           const pingSeconds = (end - start) / 1000;
-          const captionText = `QUEEN_ANITA-V2 1.𝟶.𝟶 ᴘᴀᴛᴄʜ\n\n*Ping:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nQUEEN_ANITA-V2`;
+          const captionText = `𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐\n\n*Ping:* ${pingSeconds} seconds\n\n*Line:*\n${line.result}\n\nQUEEN_ANITA-V2`;
 
           return { image: imageBuffer.data, caption: captionText };
         },
@@ -672,13 +672,13 @@ smd(
 
       const ramUsage = process.memoryUsage().heapTotal / 1024 / 1024;
 
-      const message = `*QUEEN_ANITA-V2 ʀᴜɴɴɪɴɢ sɪɴᴄᴇ:* ${uptimeHours}h ${uptimeMinutes}ᴍ ${uptimeSeconds}s\n \t_ʜᴇʀᴇ's ᴍᴏʀᴇ ɪɴғᴏ_\n*ʀᴀᴍ ᴜsᴀɢᴇ:* ${ramUsage.toFixed(2)} MB\n*ᴄᴘᴜ ɴᴀᴍᴇ:* ${cpuModel}`;
+      const message = `*ᵏᵍ┘𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐└ ʀᴜɴɴɪɴɢ sɪɴᴄᴇ:* ${uptimeHours}h ${uptimeMinutes}ᴍ ${uptimeSeconds}s\n \t_ʜᴇʀᴇ's ᴍᴏʀᴇ ɪɴғᴏ_\n*ʀᴀᴍ ᴜsᴀɢᴇ:* ${ramUsage.toFixed(2)} MB\n*ᴄᴘᴜ ɴᴀᴍᴇ:* ${cpuModel}`;
       const contextInfo = {
         isForwarded: true,
         forwardingScore: 999,
-        title: "QUEEN_ANITA-V2 Running Since",
+        title: "ᵏᵍ┘𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐└ Running Since",
         body: message,
-        footerText: "QUEEN_ANITA-V2 2024",
+        footerText: "ᵏᵍ┘𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐└ 2024",
         isSendNotificationMsg: true,
         mentionedJid: [],
       };
@@ -999,7 +999,7 @@ function _0x593b() {
     "schedule",
     "_COMMANDS*  \n┗━━━━━━━━━━━━━━━━━━━━━━━\n\n\n",
     "text",
-    "┏━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*QUEEN_ANITA-V2_",
+    "┏━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*ᵏᵍ┘𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐└",
     "2716190HSgAcg",
     "info",
     "endsWith",
