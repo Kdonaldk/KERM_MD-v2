@@ -30,11 +30,11 @@ smd(
 ➮ʀᴜɴᴛɪᴍᴇ - ${runtime(process.uptime())} 
 ➮ᴅᴀᴛᴇ - ${message.date} 
 ➮ɴᴏᴡ ᴛɪᴍᴇ - ${message.time} 
-➮Fᴏᴜɴᴅᴇʀ- *David Cyril*
+➮Fᴏᴜɴᴅᴇʀ- *Kg Tech*
 ➮Oᴡɴᴇʀ - ${Config.ownername} 
 ➮Nᴜᴍ - ${owner.split(",")[0]} 
 ➮Mᴇᴍᴏ - ${formatp(os.totalmem() - os.freemem())} 
-      \n *QUEEN_ANITA-V2 SIMPLE WHATSAPP BOT*\n\n ${readmore} 
+      \n *KERM_MD-V2 SIMPLE WHATSAPP BOT*\n\n ${readmore} 
 ╭──❰ *ALL MENU* ❱ 
 │🎗 Lɪꜱᴛ 
 │🎗 Cᴀᴛᴇɢᴏʀʏ 
@@ -65,7 +65,7 @@ astro_patch.cmd(
     try {
       if (!query) {
         return await message.send(
-          "*_Please provide cmd name by replying a Sticker_*"
+          "*_Please provide cmd name by replying a Sticker bro_*"
         );
       }
 
@@ -149,7 +149,7 @@ astro_patch.cmd(
           commandName = "sticker-" + message.quoted.msg.fileSha256;
         } else if (!query) {
           return await message.send(
-            "*_Please reply to a Sticker that was set for a command_*"
+            "*_Please reply to a Sticker that was set for a command bro_*"
           );
         }
       } else if (!query) {
@@ -190,10 +190,11 @@ astro_patch.smd(
     desc: "To check ping",
     category: "misc",
     filename: __filename,
+    react: "📈",
   },
   async (message) => {
     var startTime = new Date().getTime();
-    const { key } = await message.reply("*Queen_Anita-V2 Ping!!!*");
+    const { key } = await message.reply("*Kerm_Md-V2 Ping!!!*");
     var endTime = new Date().getTime();
     return await message.send(
       `*Pong*\n *${endTime - startTime} ms*`,
@@ -214,6 +215,7 @@ astro_patch.cmd(
     desc: "Tells runtime/uptime of bot.",
     category: "misc",
     filename: __filename,
+    react: "📉",
   },
   async (message) => {
     try {
@@ -270,6 +272,7 @@ astro_patch.smd(
     desc: "To display owner information",
     category: "owner",
     filename: __filename,
+    react: "🪪",
   },
   async (message) => {
     try {
@@ -327,6 +330,7 @@ astro_patch.cmd(
     filename: __filename,
     use: "< text >",
     desc: "Translates the given text to the desired language.",
+    react: "🎙️",
   },
   async (message, query) => {
     try {
