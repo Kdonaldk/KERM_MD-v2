@@ -132,7 +132,7 @@ smd({
   try {
     return _0x1c0160.reply(await aiResponce(_0x1c0160, "chat", _0x482db1));
   } catch (_0x4adf95) {
-    await _0x1c0160.error(_0x4adf95 + "\n\ncommand: chat", _0x4adf95, "*_no responce from chatbot, sorry!!_*");
+    await _0x1c0160.error(_0x4adf95 + "\n\ncommand: chat", _0x4adf95, "*_no responce from chatbot, sorry🥺!!_*");
   }
 });
 smd({
@@ -140,13 +140,14 @@ smd({
   desc: "chat with an AI",
   category: "ai",
   use: "<Hii, Astropeda>",
-  filename: __filename
+  filename: __filename,
+  react: "📡"
 }, async (_0x5cb388, _0x302ad5) => {
   try {
     try {
       let _0x557719 = _0x302ad5 ? _0x302ad5 : bot.reply_text;
       if (!_0x557719) {
-        return man.reply("Provide me a query ex Who is Suhail");
+        return man.reply("Provide me a query ex Who is Kerm");
       }
       const _0x50c8d3 = await fetch("https://aemt.me/openai?text=" + _0x557719);
       const _0x14c9d6 = await _0x50c8d3.json();
@@ -175,7 +176,7 @@ smd({
   try {
     let _0x1b0897 = _0x3f3887 ? _0x3f3887 : _0x42b3b8.reply_text;
     if (!_0x1b0897) {
-      return _0x42b3b8.reply("Provide me a query ex Who is Suhail");
+      return _0x42b3b8.reply("Provide me a query ex Who is Kerm");
     }
     const _0x4c275e = await fetch("https://aemt.me/openai?text=" + _0x1b0897);
     const _0x4743c3 = await _0x4c275e.json();
@@ -391,7 +392,8 @@ cmd({
   category: "general",
   filename: __filename,
   desc: "image to url.",
-  use: "<video | image>"
+  use: "<video | image>",
+  react: "🔗"
 }, async _0x4e4351 => {
   try {
     let _0x680da4 = pmtypes.includes(_0x4e4351.mtype) ? _0x4e4351 : _0x4e4351.reply_message;
@@ -401,7 +403,7 @@ cmd({
     let _0x349452 = await _0x4e4351.bot.downloadAndSaveMediaMessage(_0x680da4);
     let _0x536aa6 = await createUrl(_0x349452);
     if (!_0x536aa6) {
-      return _0x4e4351.reply("*_Failed To Create Url!_*");
+      return _0x4e4351.reply("*_Failed To Create Url bro!_*");
     }
     try {
       fs.unlink(_0x349452);
@@ -480,7 +482,7 @@ async function getDateTime() {
 }
 smd({
   pattern: "repo",
-  alias: ["git", "sc", "script"],
+  alias: ["git", "sc", "script", "kerm"],
   desc: "Sends info about repo",
   category: "general",
   filename: __filename
@@ -546,7 +548,7 @@ smd({
   alias: ["advertisement"],
   category: "ai",
   desc: "Advertise of your Message, by sending it to provided nmbr range.",
-  use: "234902786xx,Your_text_here",
+  use: "23765652xxxx,Your_text_here",
   fromMe: true,
   filename: __filename
 }, async (_0x165087, _0x13462a) => {
@@ -655,7 +657,7 @@ smd({
       _0x3079e2.reciever = _0x48975a[0];
       _0x3079e2.msgStatus = true;
       _0x3079e2.senderMsg = _0x358984;
-      _0x5f656f = "*QUEEN_ANITA-V2 • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " + _0x3079e2.id + "\n*Date:* _" + _0xbcd286 + "_\n*Time:* _" + _0x47ad13 + "_\n\n*Message:* " + _0x5f656f + "\n\n\n" + Config.caption;
+      _0x5f656f = "*KERM_MD-V2 • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " + _0x3079e2.id + "\n*Date:* _" + _0xbcd286 + "_\n*Time:* _" + _0x47ad13 + "_\n\n*Message:* " + _0x5f656f + "\n\n\n" + Config.caption;
       isAnnonyMsgAlive = isAnnonyMsgAlive + "," + _0x3079e2.reciever;
       await _0x358984.bot.sendMessage(_0x3079e2.reciever, {
         text: _0x5f656f
@@ -677,7 +679,7 @@ smd({
       if (_0x2dfb59.length < 3) {
         return;
       }
-      if (_0x2acf30.reply_text.includes("QUEEN_ANITA-V2 • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") && _0x2dfb59[0].includes("QUEEN_ANITA-V2 • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") && _0x2dfb59[2].includes("Msg_Id")) {
+      if (_0x2acf30.reply_text.includes("KERM_MD-V2 • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") && _0x2dfb59[0].includes("QUEEN_ANITA-V2 • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") && _0x2dfb59[2].includes("Msg_Id")) {
         let _0x1b0d01 = "" + _0x2dfb59[2].replace("*Msg_Id:* ", "").trim();
         let _0x2ecd2a = astro_patch_AnonyMsg[_0x1b0d01];
         if (!_0x2ecd2a) {
@@ -689,7 +691,7 @@ smd({
             if (_0x13a11c.toLowerCase().startsWith("reply")) {
               _0x2ecd2a.howmanyreply += 1;
               const _0x5a2204 = _0x2acf30.text.indexOf(",");
-              let _0x3f6b59 = "*QUEEN_ANITA-V2 • ʏᴏᴜʀ ᴀɴᴏɴʏ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" + _0x2ecd2a.reciever.split("@")[0] + "_*\n*_Msg_Id: " + _0x2ecd2a.id + "_*\n\n*Message:* " + _0x2acf30.text.slice(_0x5a2204 + 1).trim() + "\n\n\n\n" + Config.caption;
+              let _0x3f6b59 = "*KERM_MD-V2 • ʏᴏᴜʀ ᴀɴᴏɴʏ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" + _0x2ecd2a.reciever.split("@")[0] + "_*\n*_Msg_Id: " + _0x2ecd2a.id + "_*\n\n*Message:* " + _0x2acf30.text.slice(_0x5a2204 + 1).trim() + "\n\n\n\n" + Config.caption;
               if (_0x2ecd2a.howmanyreply >= 2) {
                 isAnnonyMsgAlive = isAnnonyMsgAlive.replace("," + _0x2acf30.sender, "");
               }
