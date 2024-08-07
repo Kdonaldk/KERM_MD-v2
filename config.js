@@ -45,14 +45,14 @@ global.SESSION_ID =
   ""
 module.exports = {
   menu: process.env.MENU || "1",
-  HANDLERS: process.env.PREFIX || "null",
+  HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "BRAND PRODUCT OF KG TECH",
+  caption: process.env.CAPTION || "BRAND PRODUCT OF ☞⌜ KG TECH⌝☜",
   author: process.env.PACK_AUTHER || "KG TECH",
   packname: process.env.PACK_NAME || "Kerm-MD-V2",
-  botname: process.env.BOT_NAME || "𝐊𝐄𝐑𝐌 𝐌𝐃 𝐕𝟐",
-  ownername: process.env.OWNER_NAME || "KG TECH",
+  botname: process.env.BOT_NAME || "ᵏᵍ┘𝐊𝐄𝐑𝐌_𝐌𝐃-𝐕𝟐└",
+  ownername: process.env.OWNER_NAME || "☞⌜ KG TECH⌝☜",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
